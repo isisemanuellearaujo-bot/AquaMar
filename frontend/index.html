@@ -4,24 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/index.css">
     <title>AquaMar</title>
   </head>
 
-  <body class="bg-[#113f68] text-white min-h-screen">
-    <header
-      class="fixed top-0 left-0 w-full z-50 backdrop-blur border-b border-sky-700/50 shadow-lg shadow-sky-700/50"
-    >
-      <div
-        class="max-w-7xl mx-auto flex justify-between items-center px-10 py-4"
+  <body class="bg-[#031421] text-white min-h-screen">
+    <header class="fixed top-0 left-0 w-full z-50 px-6 py-4">
+      <nav
+        class="glass max-w-7xl mx-auto rounded-full px-6 py-4 flex items-center justify-between"
       >
-        <a
-          href="/"
-          class="text-2xl font-bold text-sky-300 flex items-center gap-2 cursor-pointer"
-          >Aqua<span>&</span><span class="text-sky-500">Mar</span></a
-        >
-      </div>
-    </header>
+        <a class="font-bold text-2xl" href="">AquaMar</a>
 
+        <div class="hidden md:flex items-center gap-8 text-sm">
+          <a
+            class="transition duration-300 hover:scale-105 hover:shadow-lg shadow-[#130B41"
+            href=""
+            ><i data-lucide="home"></i
+          ></a>
+          <a
+            class="transition duration-300 hover:scale-105 hover:shadow-lg shadow-[#130B41"
+            href=""
+            ><i data-lucide="calendar-days"></i
+          ></a>
+          <a
+            class="transition duration-300 hover:scale-105 hover:shadow-lg shadow-[#130B41"
+            href=""
+            ><i data-lucide="fish"></i
+          ></a>
+          <a
+            class="transition duration-300 hover:scale-105 hover:shadow-lg shadow-[#130B41"
+            href=""
+            ><i data-lucide="map"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="flex flex-col items-center justify-center text-center px-6 pt-36 pb-32 max-w-5xl mx-auto in-view"
+      >
+        <h1>Welcome</h1>
+      </section>
+    </main>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
       lucide.createIcons();
